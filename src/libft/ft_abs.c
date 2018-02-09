@@ -14,3 +14,8 @@ int	ft_abs(int i)
 {
 	return ((i < 0) ? i * -1 : i);
 }
+
+int	ft_labs(long i)
+{
+	return ((i < 0) ? i * -1 : i);
+}

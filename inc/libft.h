@@ -125,4 +125,5 @@ int					ft_wcslen(wchar_t *s);
 int					ft_wclen(wchar_t c);
 int					ft_putwc(wchar_t c);
 char				*ft_wctostr(wchar_t c);
+int					ft_labs(long i);
 #endif
