@@ -6,13 +6,13 @@
 /*   By: elebouch <elebouch@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/20 11:46:57 by elebouch          #+#    #+#             */
-/*   Updated: 2017/11/20 15:02:09 by elebouch         ###   ########.fr       */
+/*   Updated: 2018/09/24 15:14:22 by elebouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-static char	*gnl_join(char **line, char const *buff)
+static char		*gnl_join(char **line, char const *buff)
 {
 	char	*tmp;
 	int		n;
